@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 90px;
+    padding-top: 150px;
+}
+#left{
+    height: 100%;
+    width: 48%;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#right{
+    height: 100%;
+    width: 48%;
+    background-color: rgb(145, 145, 226);
+    border-radius: 0px 0px 0px 150px;
+
+}
+#left h1{
+    font-size: 100px;
+    color: black;
+    line-height: 90px;
+    text-transform: lowercase;
+    font-weight: 100;
+}
+#bottom_left{
+    height: 40%;
+    width: 100%;
+    /* background-color: yellow;  */
+}
+#colors{
+    width: fit-content;
+    /* background-color: blue; */
+    padding: 8px 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    border: 1px solid black;
+}
+#colors h5{
+    font-size: 20px;
+    margin-right: 10px;
+    font-weight: 500;
+}
+#color1{
+    height: 20px;
+    width: 20px;
+    background-color: brown;
+    border-radius: 50%;
+    margin: 3px;
+}#color2{
+    height: 20px;
+    width: 20px;
+    background-color: rgb(175, 112, 112);
+    border-radius: 50%;
+}
+#left h2{
+    margin-top: 50px;
+    font-size: 30px;
+}
+#left p{
+    font-size: 20px;
+    width: 70%;
+    font-weight: 300;
+    color: #444;
+    width: 80%;
+}

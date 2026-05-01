@@ -7,3 +7,8 @@ abcd.addEventListener("mouseover",function(){
 abcd.addEventListener("mouseout",function(){
     abcd.style.backgroundColor="red";
 });
+
+window.addEventListener("mousemove",function(dets){
+    abcd.style.left=dets.clientX+"px";
+    abcd.style.top=dets.clientY+"px";
+});

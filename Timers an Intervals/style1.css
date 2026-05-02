@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #0f172a; /* Deep slate background */
+    overflow: hidden;
+    color: white;
+}
+
+/* Background Decoration */
+.background-blobs {
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+}
+
+.blob {
+    position: absolute;
+    border-radius: 50%;
+    filter: blur(80px);
+}
+
+.blob-1 {
+    width: 300px;
+    height: 300px;
+    background: #4f46e5; /* Indigo */
+    top: 10%;
+    left: 20%;
+}
+
+.blob-2 {
+    width: 400px;
+    height: 400px;
+    background: #9333ea; /* Purple */
+    bottom: 10%;
+    right: 20%;
+}
+
+/* Glass Card */
+.glass-card {
+    background: rgba(255, 255, 255, 0.05); /* Very transparent */
+    backdrop-filter: blur(15px); /* Frosted effect */
+    -webkit-backdrop-filter: blur(15px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 24px;
+    padding: 2.5rem;
+    width: 90%;
+    max-width: 450px;
+    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
+h2 {
+    margin-top: 1rem;
+    font-weight: 500;
+}
+
+p {
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 0.9rem;
+    margin-bottom: 2rem;
+}
+
+/* Progress Section */
+.progress-container {
+    background: rgba(255, 255, 255, 0.1);
+    height: 10px;
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+    overflow: hidden;
+}
+
+.progress-bar {
+    width: 0%; /* Logic targets this */
+    height: 100%;
+    background: linear-gradient(90deg, #4f46e5, #9333ea);
+}
+
+.status-row {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.85rem;
+    color: rgba(255, 255, 255, 0.8);
+    margin-bottom: 2rem;
+}
+
+/* Button */
+button {
+    background: white;
+    color: #0f172a;
+    border: none;
+    padding: 1rem 2rem;
+    border-radius: 12px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: transform 0.2s ease, opacity 0.2s ease;
+}
+
+button:hover {
+    transform: scale(1.05);
+    opacity: 0.9;
+}
+
+button:disabled {
+    background: rgba(255, 255, 255, 0.2);
+    color: rgba(255, 255, 255, 0.5);
+    cursor: not-allowed;
+}

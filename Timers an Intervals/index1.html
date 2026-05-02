@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Glassmorphism Download Simulation</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+
+    <!-- Blurred background shapes -->
+    <div class="background-blobs">
+        <div class="blob blob-1"></div>
+        <div class="blob blob-2"></div>
+    </div>
+
+    <div class="glass-card">
+        <div class="content">
+            <div class="icon-box">
+                <span class="download-icon">↓</span>
+            </div>
+            <h2 id="downtext">Downloading File</h2>
+            <p id="file-name">Project_Assets_v2.zip</p>
+            
+            <div class="progress-container">
+                <div class="progress-bar" id="progressBar"></div>
+            </div>
+
+            <div class="status-row">
+                <span id="percentage">0%</span>
+                <span id="speed">Calculating...</span>
+            </div>
+
+            <button id="actionBtn">Start Download</button>
+        </div>
+    </div>
+
+    <script src="script1.js"></script>
+</body>
+</html>

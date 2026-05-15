@@ -1,0 +1,17 @@
+*{
+  margin: 0;
+  padding: 0; 
+  box-sizing: border-box;
+}
+html, body{
+  height: 100%;
+  width: 100%;
+}
+.Nav {
+  background-color: rgb(57, 229, 232);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  margin: 5px;
+}

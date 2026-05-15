@@ -104,7 +104,7 @@ const jobOpenings = [
     pay: "$75/hr",
     location: "Gurgaon, India",
   },
-];
+]; //Array of objects representing job openings
 
   return (
     <div className="parent">

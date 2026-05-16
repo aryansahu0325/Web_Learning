@@ -5,7 +5,7 @@ import Button from './Components/Button/button'
 export default function App() {
   return (
     <div className="Parent">
-    <div>App</div>
+    <div>Aryan</div>
     <div><Navbar /></div>
     <div><Button /></div>
     </div>

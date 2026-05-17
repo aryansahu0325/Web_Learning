@@ -1,0 +1,31 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: white;
+}
+html, body{
+  height: 100%;
+  width: 100%;
+  background-color: black;
+}
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  background-color: #c89999;
+}
+.navbar div{ 
+  display: flex;
+  gap: 40px;
+  align-items: center;;
+}
+h1{
+  font-size: 60px;
+  font-weight: 600;
+  align-items: center;
+  text-align: center;
+  text-decoration: underline;
+  
+}
